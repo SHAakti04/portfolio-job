@@ -11,7 +11,7 @@ const AboutSection = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (sectionRef.current) {
@@ -30,7 +30,7 @@ const AboutSection = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <span>Creativity</span>
+          <span>Development</span>
           <br />
           Is My Passion
         </h2>
@@ -39,23 +39,44 @@ const AboutSection = () => {
         <div className="max-w-3xl mx-auto text-center">
           <p
             className={`text-muted-foreground text-lg leading-relaxed mb-8 transition-all duration-700 delay-200 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
             }`}
           >
-            I'm a web <strong className="text-foreground">developer and designer</strong> passionate
-            about experimenting with new <strong className="text-foreground">skills and creativity.</strong>{" "}
-            Driven by learning and curiosity, I'm always looking to explore and learn new development
-            and design skills.
+            I’m{" "}
+            <strong className="text-foreground">
+              Shaktikumar A. Prajapati
+            </strong>
+            , a results-driven Computer Science student (B.Tech, CGPA 9.0) and
+            Full Stack Developer with strong expertise in{" "}
+            <strong className="text-foreground">
+              Java, MERN Stack, MySQL, and MongoDB
+            </strong>
+            . I enjoy building scalable, real-world applications that combine
+            clean backend architecture with intuitive user interfaces. My work
+            focuses on writing efficient, maintainable code and solving complex
+            problems using strong fundamentals in
+            <strong className="text-foreground">
+              DSA, OOPS, DBMS, OS, and Computer Networks
+            </strong>
+            . Through internships and projects like Voice For Voiceless, Chat
+            AI, and RoamPulse, I’ve gained hands-on experience in REST APIs,
+            authentication, real-time systems, and cloud-based deployments. I’m
+            driven by continuous learning and excited to contribute to
+            impactful, production-grade software.
           </p>
 
           {/* Resume button */}
           <div
             className={`transition-all duration-700 delay-400 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
             }`}
           >
             <a
-              href="#"
+              href="/Shaktikumar_A_Prajapati_Resume.pdf"
               className="inline-flex items-center gap-3 px-8 py-4 bg-card border border-border rounded-full text-foreground font-medium hover:border-primary hover:text-primary transition-all duration-300 group"
             >
               <span>Resume</span>
@@ -83,10 +104,10 @@ const AboutSection = () => {
           }`}
         >
           {[
-            { number: "5+", label: "Years Experience" },
-            { number: "50+", label: "Projects Completed" },
-            { number: "30+", label: "Happy Clients" },
-            { number: "10+", label: "Awards Won" },
+            { number: "1+", label: "Years Experience" },
+            { number: "7+", label: "Projects Completed" },
+
+            { number: "5+", label: "Awards Won" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <h3 className="font-display text-3xl lg:text-4xl font-bold text-primary mb-2">

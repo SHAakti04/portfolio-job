@@ -2,49 +2,18 @@ import { useEffect, useRef, useState } from "react";
 
 const experienceData = [
   {
-    title: "Web\nDeveloper",
-    company: "Google Inc",
-    year: "2020",
-    description:
-      "Web developer handling technologies such as Angular, databases, CMS, assisting with web optimization.",
-  },
-  {
-    title: "Web\nDesigner",
-    company: "Google Inc",
-    year: "2022",
-    description:
-      "Web developer handling technologies such as Angular, databases, CMS, assisting with web optimization.",
-  },
-  {
-    title: "SEO & Web\nOptimization",
-    company: "Google Inc",
-    year: "Now",
-    description:
-      "Web developer handling technologies such as Angular, databases, CMS, assisting with web optimization.",
+    title: "MERN Stack Intern",
+    company: "Emertxe Information Technologies",
+    year: "Sept 2025 – Nov 2025",
+    description: "Worked on full-stack MERN projects, REST APIs, authentication, deployment."
   },
 ];
-
 const educationData = [
   {
-    title: "Systems\nEngineering",
-    company: "University",
-    year: "2010",
-    description:
-      "College student, learning the basics of programming, web development, and other topics, graduating with honors.",
-  },
-  {
-    title: "Web\nProgramming",
-    company: "University",
-    year: "2015",
-    description:
-      "College student, learning the basics of programming, web development, and other topics, graduating with honors.",
-  },
-  {
-    title: "Usability\n(UX/UI)",
-    company: "University",
-    year: "2018",
-    description:
-      "College student, learning the basics of programming, web development, and other topics, graduating with honors.",
+    title: "B.Tech Computer Science",
+    company: "RTM Nagpur University",
+    year: "2022 – 2026",
+    description: "CGPA: 9.0 (till 7th semester)"
   },
 ];
 

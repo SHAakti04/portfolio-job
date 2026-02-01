@@ -6,15 +6,8 @@ const servicesData = [
     description:
       "Website creation with HTML, CSS, JavaScript. Professional websites with TypeScript, React, Node JS, and lots of creativity.",
     subtitle: "Skills & Tools",
-    skills: "HTML - CSS - JavaScript - React - TypeScript - Node Js - Next Js - PHP - GitHub",
-  },
-  {
-    title: "Design",
-    description:
-      "Web designer with Figma and Sketch, creating motion designs with After Effects, creativity and design at its best.",
-    subtitle: "Skills & Tools",
-    skills: "Figma - Adobe XD - Photoshop - Illustrator - Sketch - 3D Modeling - After Effects",
-  },
+    skills: "HTML - CSS - JavaScript - React - TypeScript - Node Js - Next Js - GitHub-Java-Python",
+  }
 ];
 
 const ServicesSection = () => {
